@@ -1,2 +1,2 @@
-# Chipahuac
-Clean vvvv.js project
+# Multi
+Multi-directional 2d game vvvv.js project
