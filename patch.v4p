@@ -251,7 +251,7 @@
   </PIN>
   </NODE>
   <NODE id="57" nodename="Transform (Transform 2d)" systemname="Transform (Transform 2d)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2265" top="9510" width="100" height="100">
+  <BOUNDS type="Node" left="1785" top="11520" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -369,7 +369,7 @@
   </PIN>
   </NODE>
   <NODE id="94" nodename="FileTexture (HTML5 VVVVjs)" systemname="FileTexture (HTML5 VVVVjs)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3750" top="12000" width="100" height="100">
+  <BOUNDS type="Node" left="3795" top="11460" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Filename" visible="1">
   </PIN>
@@ -503,6 +503,12 @@
   </PIN>
   <PIN pinname="Set" visible="1">
   </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="115" nodename="animata.v4p" systemname="animata" filename="animata.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="11115" top="12165" width="100" height="100">
+  </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
