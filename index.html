@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>:: ocelotl | tlapalli</title>
+		<title>:: ocelotl | platformer</title>
   
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css" >
@@ -19,49 +19,24 @@
 				 });
 			 });
 		</script>
-		
-		<style>
-
-		body {
- 		background-repeat: no-repeat;
-  		background-attachment: fixed;
-  		background-position: center; 
-		}
-
-		.container {
-  		max-width: 360px;
-  		position: absolute;
-  		top: 50%;
-  		left: 50%;
-		transform: translate(-50%, -50%);
-  		-ms-transform: translate(-50%, -50%);
-		}
-
-		.container img {
-  		width: 100%;
- 		height: auto;
-		}
-			
-		.back {
-  		position: absolute;
-  		bottom: 5%;
-  		left: 50%;
-		transform: translate(-50%, -50%);
-  		-ms-transform: translate(-50%, -50%);
-		} 
-
-		</style>
-		
-
+		<script>
+		$(document).ready(function(){
+  			$(document).keydown(function(){
+    			var x = event.key;
+    			document.getElementById("tecla").innerHTML = x;
+  			});
+  			$(document).keyup(function(){
+    			document.getElementById("tecla").innerHTML = "0";
+  			});
+		});
+		</script>
 	 </head>
-	 <body ondragstart="return false;" ondrop="return false;" onselectstart="return false;">
-		
+	 <body>
+		<div id="tecla"></div>
+		 
 		<div class="CanvasDiv">
-                    
-	    <div id="RendererMain"></div>
+                <div id="RendererMain"></div>
 		</div>
-             
-         <div class="container"></div>    
-
+		 
 	 </body>
 </html>
