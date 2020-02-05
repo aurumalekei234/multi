@@ -251,7 +251,7 @@
   </PIN>
   </NODE>
   <NODE id="57" nodename="Transform (Transform 2d)" systemname="Transform (Transform 2d)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2370" top="12120" width="100" height="100">
+  <BOUNDS type="Node" left="2265" top="9510" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
@@ -357,7 +357,7 @@
   </PIN>
   </NODE>
   <NODE id="69" nodename="Group (Canvas VVVVjs)" systemname="Group (Canvas VVVVjs)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4830" top="14580" width="100" height="100">
+  <BOUNDS type="Node" left="5865" top="15150" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Layer 1" visible="1">
   </PIN>
@@ -375,9 +375,125 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|0.5|">
+  <PIN pinname="Input 2" visible="1" values="|2|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="92" nodename="Text (Canvas VVVVjs)" systemname="Text (Canvas VVVVjs)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7680" top="13890" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Clipping Layer" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1" values="|A,W,S,D|">
+  </PIN>
+  <PIN pinname="Font" visible="1" values="|10px sans-serif|">
+  </PIN>
+  <PIN pinname="Align" visible="1">
+  </PIN>
+  <PIN pinname="Baseline" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="93" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7605" top="13215" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="X" visible="1" values="|-1.9300000000000015|">
+  </PIN>
+  <PIN pinname="Y" visible="1" values="|1.8300000000000014|">
+  </PIN>
+  <PIN pinname="Z" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="94" nodename="FileTexture (HTML5 VVVVjs)" systemname="FileTexture (HTML5 VVVVjs)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3750" top="12000" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="95" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="3105" top="11190" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|images/parado.png|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="96" nodename="UniformScale (Transform)" systemname="UniformScale (Transform)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7380" top="12645" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="XYZ" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="98" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6735" top="5535" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input 3" visible="1">
+  </PIN>
+  <PIN pinname="Input 4" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="99" nodename="Select (Value)" systemname="Select (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5895" top="6945" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Select" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="101" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5310" top="5670" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|0.25|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|-0.25|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="102" nodename="AvoidNIL (Spreads)" systemname="AvoidNIL (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4860" top="7905" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Default" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -449,5 +565,31 @@
   <LINK srcnodeid="55" srcpinname="Position Out" dstnodeid="91" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="91" srcpinname="Output" dstnodeid="66" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="92" srcpinname="Layer" dstnodeid="69" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="93" srcpinname="Transform Out" dstnodeid="92" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="94" srcpinname="Texture Out" dstnodeid="56" dstpinname="Texture">
+  </LINK>
+  <LINK srcnodeid="95" srcpinname="Output String" dstnodeid="94" dstpinname="Filename">
+  </LINK>
+  <LINK srcnodeid="96" srcpinname="Transform Out" dstnodeid="93" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="42" srcpinname="Output" dstnodeid="98" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="40" srcpinname="Output" dstnodeid="98" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="44" srcpinname="Output" dstnodeid="98" dstpinname="Input 3">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Output" dstnodeid="98" dstpinname="Input 4">
+  </LINK>
+  <LINK srcnodeid="98" srcpinname="Output" dstnodeid="99" dstpinname="Select">
+  </LINK>
+  <LINK srcnodeid="101" srcpinname="Output" dstnodeid="99" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="99" srcpinname="Output" dstnodeid="102" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="102" srcpinname="Output" dstnodeid="57" dstpinname="Rotate">
   </LINK>
   </PATCH>
